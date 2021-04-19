@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculations.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Lab7: JavaScript Artihmetic Operator</h2>
+    </header>
+
+    <div>
+        <form name="Calculator" id="calculations" action='' method='GET'>
+            <fieldset>
+                <legend>My Calculator</legend>
+                <textarea name="result" id="result" rows="3" cols="20"></textarea>               
+            </fieldset>
+
+            <fieldset>
+                <legend>Input</legend>
+                <lebel>Operands:</lebel>
+
+                <input type="text" id="num1" name="operator">
+                <input type="text" id="num2" name="operator"><br>
+
+                <label>Operator:</label>
+                <input type="button" name="sum" value="+" onclick="addition()"> 
+                <input type="button" name="multiply" value="&times" onclick="multiplication()">
+                <input type="button" name="divide" value=":" onclick="division()">
+                <input type="reset" name="clear" value="Clear">
+            </fieldset>
+        </form>        
+    </div>
+</body>
+</html>
